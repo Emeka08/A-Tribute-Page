@@ -1,0 +1,65 @@
+body{
+    background-color: #ffffff;
+    font-weight: bold;
+    font-family: Helvetica;
+    color: #000000;
+    margin: 0;
+}
+#main{
+    text-align: center;
+    background-color: #25CED1;
+    margin-top: -1rem;
+    width: 70%;
+    margin: 0 auto;
+}
+#main #title h1 {
+    color: #F7ACCF;
+    font-family: 'Times New Roman', Times;
+    padding-top: 1rem;
+}
+#main #title p{
+    color:#000000;
+    padding-bottom: 1em;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: -1rem;
+}
+#image {
+    height: 250px;
+    width: 40%;
+}
+#img-div{
+    text-align: center;
+}
+.info{
+    margin: auto 1.5rem;
+}
+#img-div p{
+    font-style: italic;
+    color:black;
+    font-size: 10px;
+}
+#tribute-info h2{
+    text-align: center;
+    color: #0D5C63;
+    font-weight: bold;
+}
+#tribute-info ul{
+    padding-left: 2em;
+    padding-bottom: 4em;
+}
+#tribute-info li{
+   padding-top: 1.3em;
+}
+footer p{
+    color:#0D5C63;
+    text-align: center;
+}
+footer a{
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 12px;
+}
+
