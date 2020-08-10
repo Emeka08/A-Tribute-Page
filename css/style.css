@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Lemonada&display=swap');
+@import url('./scroll-bar.css');
+
 *{
     margin: 0;
     padding: 0;
@@ -78,11 +80,17 @@ footer a{
     text-align: center;
     text-decoration: none;
     font-style: italic;
-    font-size: 9px;
+    font-size: 10px;
 }
 footer a:hover{
     color: rgb(111, 111, 240);
     text-decoration: underline;
+}
+footer h2 {
+    float: right;
+    font-size: 14px;
+    margin: 0 2rem;
+    text-transform: capitalize;
 }
 
 @media (min-width: 1000px) {
